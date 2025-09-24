@@ -1,0 +1,88 @@
+html {
+    width: 1600px;
+    height:800px;
+    padding: 15px;
+    background-color: #ffcc00;
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffcc00;
+    padding: 10px 200px 30px 10px; /* top, right, bottom, and left: 0 20px 20px 20px; */
+}
+main {
+    width: 800px;
+    height:0 auto;
+    padding: 10px;
+    background-color: #ffcc00;
+}
+h1 {
+    font-family: "Story Script", sans-serif;
+    font-weight: 500;
+    font-size:50px;
+    font-style: normal;
+    margin: 5px;
+    padding: 0px 0px 30px;
+    color: #00539f;
+    text-shadow: 3px 5px 5px rgb(255, 255, 255);
+
+}
+h2 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+}
+h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: large;
+    line-height: 0.1;
+    letter-spacing: 0.1px; 
+    color: rgb(0, 0, 0);
+}
+p {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-size: medium;
+    line-height: 2;
+    letter-spacing: 0.2px;    
+    color: rgb(0, 0, 0);
+}
+ul {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-size: medium;
+    line-height: 2;
+    letter-spacing: 0.2px;    
+    color: rgb(0, 0, 0);
+    list-style:square;
+    list-style-position:inside;
+}
+ol {
+    font-family:"Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-size: medium;
+    line-height: 2;
+    letter-spacing: 0.2px;    
+    color: rgb(0, 0, 0);
+    list-style:lower-roman;
+    list-style-position:inside;
+}
+#img1 {
+    display:block;
+    max-width:200px;
+}
+#img2 {
+    display:block;
+    max-width:150px;
+    margin: 0 auto;
+}
